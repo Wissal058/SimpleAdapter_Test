@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuAdd"
+        android:icon="@drawable/add"
+    android:title="Ajouter"
+    app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/menuFilter"
+        android:title="filtrer"
+        android:icon="@drawable/search"
+    app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/menuDelete"
+        android:title="Supprimer"
+        android:icon="@drawable/delete"
+        app:showAsAction="ifRoom"/>
+</menu>
